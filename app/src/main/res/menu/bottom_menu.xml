@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menuAll"
+        android:icon="@drawable/bn_home"
+        android:title="@string/all"
+        app:cnb_iconColor="@color/home"/>
+    <item
+        android:id="@+id/menuPopular"
+        android:icon="@drawable/bn_popular"
+        android:title="@string/popular"
+        app:cnb_iconColor="@color/popular"/>
+
+    <item
+        android:id="@+id/menuSubscribed"
+        android:icon="@drawable/bn_subscribed"
+        android:title="@string/subscribed"
+        app:cnb_iconColor="@color/subscribed" />
+    <item
+        android:id="@+id/menuLibrary"
+        android:icon="@drawable/bn_library"
+        android:title="@string/library"
+        app:cnb_iconColor="@color/library" />
+</menu>

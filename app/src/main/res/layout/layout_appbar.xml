@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.MaterialToolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/topAppBar"
+    android:layout_height="@dimen/topAppBar"
+    android:background="@color/bytechute_white"
+    android:layout_width="match_parent">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:src="@drawable/tab_bitchute"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/bitChuteHeader"
+        android:scaleType="fitStart"/>
+
+    <ImageButton
+        android:id="@+id/search"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size"
+        android:layout_gravity="center_vertical|end"
+
+        android:src="@drawable/tab_search"
+        android:tint="@color/bytechute_darkGrey" />
+
+    <ImageButton
+        android:id="@+id/filter"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size"
+        android:layout_gravity="center_vertical|end"
+        android:src="@drawable/tab_filer"
+        android:tint="@color/bytechute_darkGrey" />
+
+</com.google.android.material.appbar.MaterialToolbar>
